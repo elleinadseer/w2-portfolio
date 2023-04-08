@@ -71,22 +71,299 @@ nav a {
     z-index: 1;
 }
 
-.headers h2 {
+.about-me h2 {
     text-align: right;
+    position: absolute;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.about-me h3 {
+     border-left: solid 3px;
+     border-color: red;
+     margin-left: 200px;
+     padding-right: 130px;
+     padding-left: 50px;
+     flex: 0 0 300px;
+}
+
+.about-me img {
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.work {
+    flex: 1;
+    background-color:rgb(245, 246, 254);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work h2 {
+    border-right: solid 3px;
+    border-color: red;
+    text-align: right;
+    margin-left: 35px;
+    padding-right: 5px;
+    flex: 0 0 160px;
+    height: 400px
+}
+
+.card {
+    padding: 10px;
+}
+
+.first-card img {
+    height: 370px;
+    width: 725px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: rgba(127, 244, 255, 0.614);
+    border-width: 3px;
+}
+
+.first-card .photobox {
+    background-color:rgba(127, 244, 255);
+    border-style: solid;
+    border-color: rgba(127, 244, 255, 0.614);
+    border-width: 3px;
+    margin-top: 250px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 2;
+    }
+
+.rows {
+    border-left: solid 3px;
+    border-color: red;
+    margin-left: 200px;
+}
+
+.card img {
+    border-style: solid;
+    border-color: rgba(127, 244, 255);
+    border-width: 3px;
+    height: 120px;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.card .photobox {
+    background-color:rgba(127, 244, 255, 0.5);
+    border-style: solid;
+    border-color: rgba(127, 244, 255);
+    border-width: 3px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+.card > h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-style: solid;
+    border-color: var(--white);
+    border-width: 1px;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    background: var(--grey);
+    color: var(--pink);
+    font-size: 25px;
+  }
+  
+  .card > h3 {
+    text-align: left;
+    padding-bottom: 20px;
+    color: var(--pink);
+  }
+  
+  .card > h4 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: var(--white);
+    background-image: linear-gradient(to bottom, #a742e2, var(--pink));
+    border-radius: 10px;
+  }
+
+
+footer h2 {
+     text-align: right;
+     position: absolute;
+     margin-left: 100px;
+     margin-top: 1px;
+}
+
+footer h3 {
+     border-left: solid 3px;
+     border-color: red;
+     margin-left: 200px;
+     padding-right: 130px;
+     padding-left: 50px;
+     flex: 0 0 300px;
+     height: 30px;
+}
+
+
+
+/*
+.work {
+    flex: 1;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-left: solid 3px;
+    border-color: red;
+    margin-left: 200px;
+    background-color:rgb(245, 246, 254);
+  }
+
+  .work h2 {
+    text-align: right;
+    position: absolute;
+    margin-right: 750px;
+  }
+
+  .card:first-child {
+    flex: 0 0 1000px;
+    width: 100%;
+  }
+
+  .card {
+    border-style: solid;
+    border-color:rgba(127, 244, 255, 0.614);
+    display:grid;
+    gap: 10px;
+  }
+
+  .card > header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+  }
+  
+  .card > p {
+    text-align: center;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+
+
+
+/*
+.about-me .work {
+    display: flex;
+}
+
+h3 {
+    margin-right: 10px;
+    padding-left: 10px;
+    border-left: solid rgb(255, 102, 36) 2px;
+    color: rgb(43, 43, 43);
+    width: 79%;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+    margin-left: 100px;
+    color: rgb(55, 55, 55);
+    font-size: 30px;
+    width: 19%;
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+
+/*
+.about-me .main {
+    display: flex;
+}
+
+h3 {
+    margin-right: 10px;
+    padding-left: 10px;
+    border-left: solid rgb(255, 102, 36) 2px;
+    color: rgb(43, 43, 43);
+    width: 79%;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(55, 55, 55);
+    text-align: right;
+    font-size: 30px;
+    width: 19%;
+}
+
+ /*
+.work h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: -30px;
+    margin-left: 80px;
+    color: rgb(55, 55, 55);
+    font-size: 30px;
+} */
+
+
+
+
+/*
+
+    width: 90%;
+    height: 200%;
+
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 10%;
+
+.about-me h2 {
+    position: absolute;
+    color: red;
+    left: 15px;
+}
+
+
+body h2 {
+    display: flex;
+    flex-direction: column;
     color:rgb(55, 55, 55);
     font-size: 200%;
     float: left;
     width: 20%;
+} */
+/*
+.work
+
+
+.work img {
+    height: 300px;
+    margin-bottom: 25px;
+  
 }
 
-.headers h3 {
-    border-left: solid rgb(255, 102, 36) 2px;
-    border-right: 50px;
-    padding-left: 70px;
-    padding-right: 100px;
-    float: right;
-    width: 65%;
+.work img:first-child {
 }
+
+
+
+
 
 /* 
 
