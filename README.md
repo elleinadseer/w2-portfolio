@@ -2,20 +2,18 @@
 
 ## Description
 
-I have been tasked to increase the efficiency of the CSS by consolidating the selectors and properties, organising them to follow the semantic structure of the HTML elements and to include comments before each element or section of the page. Additionally, the user story also asked to create a codebase that follows accessibility standards so that the site is optimised for search engines. 
+I have tasked to create a portfolio page. I have utilisied core skills such as flexbox, media queries and CSS varaibles in the creation of this page. I have shown my work samples so that an employer can review my work.
 
-I feel that I have fulfilled these tasks to the best of my ability, as I've consolidated repetitive type selectors into grouping selectors and made code more semantically efficient in other ways. (Please refer to the refactoring section below.) I have also included comments throughout.
-I feel that I have solved the problem of the website's non-optimised accessibility and search engine engagement by adding alt text to every image and giving the website a more appropriate title.
+I have included my name, a recent photo and links in the navigation to sections about myself, my work and my contact details. My first application image is larger than the others and all images link through to my projects. The page has a responsive layout that adapts to the reader's viewport. 
 
 ## Links
 
 Link to deployed website:
-https://elleinadseer.github.io/w1-semantic-refactoring/
 
 Link to GitHub repo: 
-https://github.com/elleinadseer/w1-semantic-refactoring
+https://github.com/elleinadseer/w2-portfolio
 
-## Refactoring
+## Development
 Lessons learned about refactoring code based on the completion of this project:
 - How to fix broken anchor links by attaching an Id to a section. 
 - How to fix repeating code by combining repetitive type selectors into grouping selectors.
@@ -42,7 +40,7 @@ The rest of the website is not interactive but all aspects of the website are di
 Source for the hero image:
 https://wpengine.com/resources/design-for-web-using-design-patterns-how-to/
 
-I have heavily relied on lessons taught through the module 2 lessons of the bootcamp. I also did some minor googling to receive information that I did not use heavily enough to require attribution. 
+I have heavily relied on lessons taught through the module 2 lessons of the bootcamp; copying and then editing code from the lessons of this module to fit my needs. I also did some minor googling to receive information that I did not use heavily enough to require attribution. 
 
 ## License
 
