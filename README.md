@@ -22,10 +22,6 @@ I also feel the HTML and CSS could have been better condensed. I think the prima
 
 I recieved feedback on my first project after I began this one to utilise .gitignore to get rid of the .DS-store file and to use "w1" at the end of the repo name instead of the beginning so I'll put that into practice next challenge.
 
-Advice
-1. Use a .gitignore in future repo’s, “type in “.DS_store” and that’ll prevent those files from appearing in your repo. 
-2. Use “w1” at the end of the repo name. 
-
 ## Usage
 
 Aesthetic design was not a priority for me in the creation of this project and I attempted to emulate the example image of the project instructions to simplify the matter of aesthetic choices. 
