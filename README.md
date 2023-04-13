@@ -14,26 +14,20 @@ Link to GitHub repo:
 https://github.com/elleinadseer/w2-portfolio
 
 ## Development
-Lessons learned about refactoring code based on the completion of this project:
-- How to fix broken anchor links by attaching an Id to a section. 
-- How to fix repeating code by combining repetitive type selectors into grouping selectors.
-- How to convert images defined into CSS into HTML code. Doing this allowed me to add an alt text to this image.
-- How to simplify a section class into an img class.
-- The importance of ordering headings sequentially. 
 
-I also learned to make classes more semantically convenient. Examples:
-- Re-naming classes for better clarity (i.e. "benefit-lead" to "lead-generation" to create a more consistent naming scheme through out the entire code.)
-- Changing a type selector into a descendent selector in order to make the purpose of the selector more semantically clear.
+The initial visual development of the page went along very smoothly but I struggled with utilising flexboxes and media queries. I feel that I need to do further self-teaching into the subjects to get a better grasp of how to utilise these concepts but I was able to do what was tasked of me regardless. I had to change some of the structual aspects of the website in order to accomadate easier coding to make up for my difficulties, so hopefully I can overcome that in the future. I didn't give much thought to the aesthetics as it wasn't required, but I am regretful that I couldn't figure out how to create a sidebar for the work section without the photo box placements becoming too difficult to control. I will work on this in the future. 
+
+I also feel the CSS could have been better condensed. I think the primary lesson I've learnt from this project is to better pre-plan the writing of my code in plain terms before I start coding.
 
 ## Usage
 
-As I can demonstrate in the screenshots below, despite a large portion of the code being changed the website still looks exactly the same as before. I have managed to improve the website's code functionality and accessibility without impacting on the visual design. 
+Aesthetic design was not a priority for me in the creation of this project and I attempted to emulate the example image of the project instructions to simplify the matter of aesthetic choices. 
 
-![Screenshot](.png)
-![Screenshot2](https://user-images.githubusercontent.com.png)
+![Screenshot 2023-04-13 at 3 47 52 pm](https://user-images.githubusercontent.com/126515415/231797917-b45aa538-d009-4653-a22e-4d65654dfd7a.png)
 
-The links in the navigational bar successfully anchor link to the described sections of the page. 
-The rest of the website is not interactive but all aspects of the website are displayed correctly. 
+![Screenshot 2023-04-13 at 3 48 16 pm](https://user-images.githubusercontent.com/126515415/231797714-3bf9f231-a40c-4d7e-a5ad-3e4e05c93ff0.png)
+
+The links in the navigational bar successfully anchor link to the described sections of the page. The image boxes displaying and describing the projects link through to the respective GitHub repository's for those projects.
 
 ## Credits
 
