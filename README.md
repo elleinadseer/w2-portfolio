@@ -9,15 +9,22 @@ I have included my name, a recent photo and links in the navigation to sections 
 ## Links
 
 Link to deployed website:
+https://elleinadseer.github.io/w2-portfolio/
 
 Link to GitHub repo: 
 https://github.com/elleinadseer/w2-portfolio
 
 ## Development
 
-The initial visual development of the page went along very smoothly but I struggled with utilising flexboxes and media queries. I feel that I need to do further self-teaching into the subjects to get a better grasp of how to utilise these concepts but I was able to do what was tasked of me regardless. I had to change some of the structual aspects of the website in order to accomadate easier coding to make up for my difficulties, so hopefully I can overcome that in the future. I didn't give much thought to the aesthetics as it wasn't required, but I am regretful that I couldn't figure out how to create a sidebar for the work section without the photo box placements becoming too difficult to control. I will work on this in the future. 
+The initial visual development of the page went along very smoothly but I struggled with utilising flexboxes and media queries in some cases. I feel that I need to do further self-teaching into the subjects to get a better grasp of how to utilise these concepts but I was able to do what was tasked of me regardless. I had to change some of the structual aspects of the website in order to accomadate easier coding to make up for my difficulties, so hopefully I can overcome that in the future. I didn't give much thought to the aesthetics as it wasn't required, but I am regretful that I couldn't figure out how to create a sidebar for the work section without the photo box placements becoming too difficult to control. I will work on this in the future. 
 
-I also feel the CSS could have been better condensed. I think the primary lesson I've learnt from this project is to better pre-plan the writing of my code in plain terms before I start coding.
+I also feel the HTML and CSS could have been better condensed. I think the primary lesson I've learnt from this project is to better pre-plan the writing of my code in plain terms before I start coding.
+
+I recieved feedback on my first project after I began this one to utilise .gitignore to get rid of the .DS-store file and to use "w1" at the end of the repo name instead of the beginning so I'll put that into practice next challenge.
+
+Advice
+1. Use a .gitignore in future repo’s, “type in “.DS_store” and that’ll prevent those files from appearing in your repo. 
+2. Use “w1” at the end of the repo name. 
 
 ## Usage
 
